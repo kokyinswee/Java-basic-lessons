@@ -1,0 +1,20 @@
+//exercise 27
+package exercise27;
+
+class vehical{
+    protected String brand="Ford";
+    public void honk(){
+        System.out.println("tote tote:");
+    }
+}
+class Car extends vehical {
+    private String modeName="Mustang";
+
+    
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Car obj=new Car();
+        obj.honk();
+        System.out.println(obj.brand+"  "+obj.modeName);
+    }
+}
