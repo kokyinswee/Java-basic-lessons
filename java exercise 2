@@ -1,0 +1,17 @@
+//java exercise 2
+
+package exercise2;
+
+
+public class Exercise2 {
+    int x=8;
+
+   
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Exercise2 obj=new Exercise2();
+        Exercise2 obj2=new Exercise2();
+        System.out.println(obj.x);
+         System.out.println(obj2.x);
+    }
+}
