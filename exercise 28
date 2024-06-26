@@ -1,0 +1,33 @@
+//exercise 28
+
+package exercise28;
+
+class Animal{
+    public void aSound(){
+    System.out.println("The make a sound:");
+}
+}
+class Pig extends Animal {
+    public void aSound(){
+        System.out.println("The Pig says: wee wee:");
+    }
+}
+class Dog extends Animal{
+    public void aSound(){
+        System.out.println("The Dog say: wote wote:");
+    }
+}
+class Main{
+    
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Animal obj=new Animal();
+        Animal a =new Pig();
+        Animal b =new Dog();
+        
+        obj.aSound();
+        a.aSound();
+        b.aSound();
+    }
+}
